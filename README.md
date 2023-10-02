@@ -30,10 +30,17 @@ Using Jupyter Notebooks we show/describe etc...
 ***
 
 # Task1
-The purpose of Task1 is to verify that the Collatz conjecture is true for the first 10,000 positive integers.
-The Collatz conjecture is ...(give some details here including a reference maybe)
+The Collatz conjecture is a famous unsolved problem in mathematic which was introduced in 1937 by Lother Collatz $^1$. It asks the question whether applying two simple arithmetic equations to any positive integer will always result in a value of 1. As of time of writing, no number has yet been found that breaks this sequence but the conjecture has yet to be proven for all numbers. Although in 2019, Australian mathematician Terence Tao $^2$ suggested that it would be very rare for any number to diverge from the Collatz rule, but not necessarily impossible.
 
-(Add details of how the code works) and links to previous works/attempts to prove it...
+The purpose of Task1 is to prove that the Collatz conjecture is true for the first $10,000$ positive integers.
+
+In the code we start by defining a function $f(x)$ which applies a formula on $x$ depending on whether $x$ is even or odd and returns the calculated value back to the code.   
+
+Next we define a second function ```collatz``` which uses a while loop to continuously call $f(x)$ until the value of $x = 1$.   
+
+Finally we define a range of values for $x$ from $1$ to $10,000$ using a for loop which sends the values to the ```collatz``` function.
+
+If our code reaches the value $10,000$ without going into any continuous loop then it has  proved the conjecture for those numbers.   
 
 # Task2
 All about Task2 here
@@ -60,6 +67,11 @@ Sub heading for project
 # Summary
 
 # References
+$^1$ Collatz Conjecture | Wikipedia. July 2023. URL: https://en.wikipedia.org/wiki/Collatz_conjecture (Accessed on 2/10/2023)   
+
+$^2$ Even the Smartest Mathematicians Can't Solve the Collatz Conjecture. | Jesslyn Shields, How Stuff Works. nd. URL: https://science.howstuffworks.com/math-concepts/collatz-conjecture.htm (Accessed on 2/10/2023)   
+
+
 
 To make it look like code
 ```data```   
