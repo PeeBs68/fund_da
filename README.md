@@ -43,7 +43,16 @@ Finally we define a range of values for $x$ from $1$ to $10,000$ using a for loo
 If our code reaches the value $10,000$ without going into any continuous loop then it has  proved the conjecture for those numbers.   
 
 # Task2
-All about Task2 here
+The penguin data set...
+
+The purpose of Task2 is to give an overview of the penguins data set, explaining the types of variables it contains. And suggesting the types of variables that should be used to model them in Python, explaining the rationale.
+
+Useful Links
+https://medium.com/@marvelouskgc/build-a-penguin-project-using-pandas-and-seaborn-eugene-tsai-e4b7e0b499ea
+
+https://www.kaggle.com/code/parulpandey/penguin-dataset-the-new-iris
+
+https://towardsdatascience.com/penguins-dataset-overview-iris-alternative-9453bb8c8d95
 
 # Task3
 All about Task3 here
