@@ -47,6 +47,8 @@ The penguin data set...
 
 The purpose of Task2 is to give an overview of the penguins data set, explaining the types of variables it contains. And suggesting the types of variables that should be used to model them in Python, explaining the rationale.
 
+Although the penguin dataset is commonly used 
+
 Useful Links
 https://medium.com/@marvelouskgc/build-a-penguin-project-using-pandas-and-seaborn-eugene-tsai-e4b7e0b499ea
 
