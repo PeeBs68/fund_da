@@ -49,7 +49,9 @@ The purpose of Task2 is to give an overview of the penguins data set, explaining
 
 Although the penguin dataset is commonly used...
 
-The data from the penguins data set was collected through research by Gorman and researchers from the... $^3$.
+The data from the penguins data set was collected through research by Gorman and researchers from the... $^3$. The dataset is available from a number of sources icluding Michael Waskom's github repository $^4$ and also directly through the seaborn module in python.
+
+...using inbuilt python functions such as ```describe``` and ```dtype``` to generate summary statistics...
 
 Useful Links - more to references section if used...
 
@@ -63,7 +65,12 @@ https://towardsdatascience.com/penguins-dataset-overview-iris-alternative-9453bb
 
 
 # Task3
-All about Task3 here
+The purpose of task3 is to suggest which probability distribution from the numpy random distribution list $^5$ is most appropriate to model the variables in the penguin dataset.
+
+In task2 we have identified the seven variables in the dataset and the data types etc. involved. In this task we will...
+
+Firstly we examine each variable individually and look at the data in terms of the mean, mode, median and distribution of the data.  
+ From these results we then decide on the most appropriate probability distribution to use to model the data...
 
 # Task4
 All about Task4 here
@@ -92,6 +99,10 @@ $^1$ Collatz Conjecture | Wikipedia. July 2023. URL: https://en.wikipedia.org/wi
 $^2$ Even the Smartest Mathematicians Can't Solve the Collatz Conjecture. | Jesslyn Shields, How Stuff Works. nd. URL: https://science.howstuffworks.com/math-concepts/collatz-conjecture.htm (Accessed on 2/10/2023)   
 
 $^3$ Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. https://doi.org/10.1371/journal.pone.0090081
+
+$^4$ Michael Waskom's Seaborn Data Repository. URL: https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv (Accessed on xxxxxx)
+
+$^5$ Numpy Random Number Generator. URL: https://numpy.org/doc/stable/reference/random/generator.html#distributions (Accessed on xxxxx)
 
 
 To make it look like code
