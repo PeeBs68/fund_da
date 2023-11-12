@@ -40,7 +40,7 @@ Next we define a second function ```collatz``` which uses a while loop to contin
 
 Finally we define a range of values for $x$ from $1$ to $10,000$ using a for loop which sends the values to the ```collatz``` function.
 
-If our code reaches the value $10,000$ without going into any continuous loop then it has  proved the conjecture for those numbers.   
+If our code reaches the value $10,000$ without going into a continuous loop then it has proved the conjecture for those numbers.   
 
 # Task2
 The penguin data set...
@@ -53,7 +53,7 @@ The data from the penguins data set was collected through research by Gorman and
 
 ...using inbuilt python functions such as ```describe``` and ```dtype``` to generate summary statistics...
 
-Useful Links - more to references section if used...
+Useful Links - move to references section if used...
 
 https://medium.com/@marvelouskgc/build-a-penguin-project-using-pandas-and-seaborn-eugene-tsai-e4b7e0b499ea
 
@@ -67,7 +67,7 @@ https://towardsdatascience.com/penguins-dataset-overview-iris-alternative-9453bb
 # Task3
 The purpose of task3 is to suggest which probability distribution from the numpy random distribution list $^5$ is most appropriate to model the variables in the penguin dataset.
 
-In task2 we have identified the seven variables in the dataset and the data types etc. involved. In this task we will...
+In task2 we have identified the seven variables in the dataset and the data types etc. involved. In this task we will do a closer examination of each of the variables
 
 Firstly we examine each variable individually and look at the data in terms of the mean, mode, median and distribution of the data.  
  From these results we then decide on the most appropriate probability distribution to use to model the data...
@@ -76,7 +76,7 @@ Firstly we examine each variable individually and look at the data in terms of t
 All about Task4 here
 
 # Task5
-All about Task15 here
+All about Task5 here
 
 # Project
 All about the project here
