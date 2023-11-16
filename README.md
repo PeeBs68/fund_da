@@ -79,13 +79,14 @@ All about Task4 here
 All about Task5 here
 
 # Project
-All about the project here
-## Part1
+The purpose of this project is to investigate the variables and data points within the iris flower data set. In this we discuss the classification of each variable within the data set. We will select, demonstrate and explain the most appropriate statistics to describe each variable. We will also select, demonstrate and explain the most appropriate plots for each variable.
+## Classification of Variables
 Sub heading for project
-## Part2
+## Statistics
 Sub heading for project
-## Part3
-Sub heading for project
+## Plots
+In this section we looked at various plot types for each of the variables in our data set. We concluded that bar/pie charts are most appropriate for the categorical variables (i.e. Class) and that histograms were most appropriate for the numeric variables.   
+We also explored using scatterplots to compare the relationships between two variables and finished with a correlation plot to show at a glance the strength of the relationships between each of the variables in our data set...
 
 
 # Summary
