@@ -74,11 +74,11 @@ Firstly we examine each variable individually and look at the data in terms of t
 
 # Task4
 The purpose of this task is to plot the entropy of the total number of heads versus the probability $p$ of giving heads when flipping two coins.
-Assumption: we are making the assumption that the question refers to the probability of both coins landing on Heads with each single toss
+Assumption: we are making the assumption that the question refers to the probability of both coins landing on Heads with each single toss (as opposed to either coin landing on Head)
 
-We start by working out the probability of both coins returning a Head on a single toss. We then run this through our Entropy formula to get the value of Entropy.
+We start by working out the probability of both coins returning a Head on a single toss. We then run this value through our Entropy formula to get the value of Entropy.
 
-To visualies the results we generate a plot of probabilities between 0 and 1 (actually between 0001 and 9999) and the associated Entropy value. We then superimpose the point of Entropy for the total number of heads on top of the graph...
+To visualies the results we generate a plot of probabilities between 0 and 1 (actually between 0001 and 9999) and the associated Entropy value which is calculated between 0 and 1. We then superimpose the point of Entropy for the total number of heads on top of the graph...
 
 
 # Task5
