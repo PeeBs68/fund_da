@@ -10,26 +10,29 @@ Jupyter Notebook: v6.5.4
 
 **Table of Contents**
 1. [Introduction](#Introduction) 
-2. [Task1](#Task1)
-3. [Task2](#Task2)
-4. [Task3](#Task3)
-5. [Task4](#Task4)
-6. [Task5](#Task5)
+2. [Task1 - Collatz Conjecture](#Task1)
+3. [Task2 - Penguin Dataset Overview](#Task2)
+4. [Task3 - Penguin Dataset Probability Distributions](#Task3)
+5. [Task4 - Entropy of a Coin Toss](#Task4)
+6. [Task5 - Penguin Datase Plots](#Task5)
 7. [Project](#project)
-    1. [Part1](#Part1)
-    2. [Part2](#Part2)
-    3. [Part3](#Part3)
+    1. [Variables Classification](#Part1)
+    2. [Summary Statistics](#Part2)
+    3. [Plotting](#Part3)
 8. [Summary](#Summary)
 9. [References](#References)
 
+---
 
-# Introduction
+## Introduction
 The purpose of this README is to describe the tasks and project associated with Fundamentals of Data Analysis 
-Using Jupyter Notebooks we show/describe etc...
+Using Jupyter Notebooks we show the requirement of each task and describe how we went about completing it. We also outline the requirements for the project and the methods we used to complete it.
 
-***
+---
 
-# Task1
+# Tasks
+
+## Task1
 The Collatz conjecture is a famous unsolved problem in mathematic which was introduced in 1937 by Lother Collatz $^1$. It asks the question whether applying two simple arithmetic equations to any positive integer will always result in a value of 1. As of time of writing, no number has yet been found that breaks this sequence but the conjecture has yet to be proven for all numbers. Although in 2019, Australian mathematician Terence Tao $^2$ suggested that it would be very rare for any number to diverge from the Collatz rule, but not necessarily impossible.
 
 The purpose of Task1 is to prove that the Collatz conjecture is true for the first $10,000$ positive integers.
@@ -42,7 +45,7 @@ Finally we define a range of values for $x$ from $1$ to $10,000$ using a for loo
 
 If our code reaches the value $10,000$ without going into a continuous loop then it has proved the conjecture for those numbers.   
 
-# Task2
+## Task2
 The penguin data set...
 
 The purpose of Task2 is to give an overview of the penguins data set, explaining the types of variables it contains. And suggesting the types of variables that should be used to model them in Python, explaining the rationale.
@@ -62,9 +65,7 @@ https://www.kaggle.com/code/parulpandey/penguin-dataset-the-new-iris
 https://towardsdatascience.com/penguins-dataset-overview-iris-alternative-9453bb8c8d95
 
 
-
-
-# Task3
+## Task3
 The purpose of task3 is to suggest which probability distribution from the numpy random distribution list $^5$ is most appropriate to model the variables in the penguin dataset.
 
 In task2 we have identified the seven variables in the dataset and the data types etc. involved. In this task we will do a closer examination of each of the variables
@@ -72,7 +73,7 @@ In task2 we have identified the seven variables in the dataset and the data type
 Firstly we examine each variable individually and look at the data in terms of the mean, mode, median and distribution of the data.  
  From these results we then decide on the most appropriate probability distribution to use to model the data...
 
-# Task4
+## Task4
 The purpose of this task is to plot the entropy of the total number of heads versus the probability $p$ of giving heads when flipping two coins.
 Assumption: we are making the assumption that the question refers to the probability of both coins landing on Heads with each single toss (as opposed to either coin landing on Head)
 
@@ -81,8 +82,15 @@ We start by working out the probability of both coins returning a Head on a sing
 To visualies the results we generate a plot of probabilities between 0 and 1 (actually between 0001 and 9999) and the associated Entropy value which is calculated between 0 and 1. We then superimpose the point of Entropy for the total number of heads on top of the graph...X
 
 
-# Task5
-All about Task5 here
+## Task5
+The purpose of this task is to create appropriate individual plots for each of the variables in the penguin data set.
+
+We know from our work on Task2 the type of data each variable contains and use that to decide the most appropriate plots.   
+For the categorical/qualitative variables we use bar and pie charts and for the quantitative/numeric variables we use histograms to plot their distributions.   
+Finally we add additional plots to better view and describe the data such as a scatterplot for related variables, a correlation matrix to view the correlation between each variables and finish with a pair plot to give a sample overview of the dataset.
+
+---
+---
 
 # Project
 The purpose of this project is to investigate the variables and data points within the iris flower data set. In this we discuss the classification of each variable within the data set. We will select, demonstrate and explain the most appropriate statistics to describe each variable. We will also select, demonstrate and explain the most appropriate plots for each variable.
