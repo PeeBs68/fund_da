@@ -11,28 +11,9 @@ Python v3.11.4
 VS Code: v1.82.2   
 Jupyter Notebook: v6.5.4
 
-
-
 ---
 The purpose of this README is to describe the tasks and project associated with Fundamentals of Data Analysis 
 Using Jupyter Notebooks we show the requirement of each task and describe how we went about completing it. We also outline the requirements for the project and the methods we used to complete it.
-
----
-
-**Table of Contents**
-1. [Tasks](#Tasks) 
-    1. [Task1 - Collatz Conjecture](#Task1)
-    2. [Task2 - Penguin Dataset Overview](#Task2)
-    3. [Task3 - Penguin Dataset Probability Distributions](#Task3)
-    4. [Task4 - Entropy of a Coin Toss](#Task4)
-    5. [Task5 - Penguin Datase Plots](#Task5)
-2. [Project](#project)
-    1. [Variables Classification](#Part1)
-    2. [Summary Statistics](#Part2)
-    3. [Plotting](#Part3)
-3. [References](#References)
-
-
 ---
 
 # Tasks
@@ -73,20 +54,14 @@ We also explored using scatterplots to compare the relationships between two var
 
 # References
 
-Need to format these right so they are all consistent
-
 $^1$ Collatz Conjecture | Wikipedia. July 2023. URL: https://en.wikipedia.org/wiki/Collatz_conjecture (Accessed on 2/10/2023)   
 
-$^2$ Even the Smartest Mathematicians Can't Solve the Collatz Conjecture. | Jesslyn Shields, How Stuff Works. nd. URL: https://science.howstuffworks.com/math-concepts/collatz-conjecture.htm (Accessed on 2/10/2023)   
+$^2$ Jesslyn Shields "Even the Smartest Mathematicians Can't Solve the Collatz Conjecture" 1 January 1970.
+HowStuffWorks.com. <https://science.howstuffworks.com/math-concepts/collatz-conjecture.htm>  (Accessed on 27/10/2023)
 
-$^3$ Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. https://doi.org/10.1371/journal.pone.0090081
+$^3$ Gorman KB, Williams TD, Fraser WR (2014). "Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis)." PLoS ONE 9(3):e90081. https://doi.org/10.1371/journal.pone.0090081
 
-$^4$ Michael Waskom's Seaborn Data Repository. URL: https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv (Accessed on xxxxxx)
+$^4$ Michael Waskom's Seaborn Data Repository. URL: https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv (Accessed on 5/10/2023)
 
-$^5$ Numpy Random Number Generator. URL: https://numpy.org/doc/stable/reference/random/generator.html#distributions (Accessed on xxxxx)
+$^5$ Numpy Random Number Generator. Numpy.org. nd. URL: https://numpy.org/doc/stable/reference/random/generator.html#distributions (Accessed on 10/10/2023)
 
-
-To make it look like code
-```data```   
-Or Latex to make it look mathematical
-$+/=45/2$
